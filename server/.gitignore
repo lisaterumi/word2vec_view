@@ -10,7 +10,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+#dist/
 downloads/
 eggs/
 .eggs/
@@ -139,4 +139,4 @@ cython_debug/
 
 # custom
 *sqlite3
-static/dist
+#static/dist
