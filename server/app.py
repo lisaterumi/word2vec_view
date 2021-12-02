@@ -4,8 +4,8 @@ from flask_cors import CORS
 from flask_restful import Api
 # from gensim.models import Word2Vec
 import os
-from settings import MODE, ProductionConfig, DevelopmentConfig
-from resources.routes import initialize_routes
+from .settings import MODE, ProductionConfig, DevelopmentConfig
+from .resources.routes import initialize_routes
 
 def create_app():
     app = Flask(__name__, 
